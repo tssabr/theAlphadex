@@ -1,0 +1,6 @@
+framework module Pods_theAlphaDex {
+  umbrella header "Pods-theAlphaDex-umbrella.h"
+
+  export *
+  module * { export * }
+}
