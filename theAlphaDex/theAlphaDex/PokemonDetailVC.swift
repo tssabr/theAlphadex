@@ -28,8 +28,16 @@ class PokemonDetailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        pokemon.downloadPokemonDetails {
+            //will only be called after its finished
+            self.updateUI()
+        }
 
-        nameLbl.text = pokemon.name
+        //nameLbl.text = pokemon.name
+    }
+    
+    func updateUI() {
+        
     }
     
     @IBAction func backButtonPressed(_ sender: UIButton) {

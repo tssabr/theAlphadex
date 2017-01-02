@@ -20,6 +20,7 @@
 		D28A32F71E189BCD0065374C /* PokemonSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D28A32F61E189BCD0065374C /* PokemonSolid.ttf */; };
 		D28A32FB1E189EB00065374C /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D28A32FA1E189EB00065374C /* music.mp3 */; };
 		D28A32FD1E1982DB0065374C /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A32FC1E1982DB0065374C /* PokemonDetailVC.swift */; };
+		D28A33081E19A1BF0065374C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A33071E19A1BF0065374C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D28A32FA1E189EB00065374C /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		D28A32FC1E1982DB0065374C /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		D28A32FE1E19A11F0065374C /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		D28A33071E19A1BF0065374C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D83F3A191E973BE40D356E09 /* Pods-theAlphaDex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theAlphaDex.release.xcconfig"; path = "Pods/Target Support Files/Pods-theAlphaDex/Pods-theAlphaDex.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				D28A32F31E18943D0065374C /* csv.swift */,
+				D28A33071E19A1BF0065374C /* Constants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				D28A32DC1E1875860065374C /* ViewController.swift in Sources */,
 				D28A32DA1E1875860065374C /* AppDelegate.swift in Sources */,
 				D28A32FD1E1982DB0065374C /* PokemonDetailVC.swift in Sources */,
+				D28A33081E19A1BF0065374C /* Constants.swift in Sources */,
 				D28A32EE1E18762D0065374C /* Pokemon.swift in Sources */,
 				D28A32F41E18943D0065374C /* csv.swift in Sources */,
 			);
